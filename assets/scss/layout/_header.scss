@@ -1,4 +1,14 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.nav-border{
+  border-bottom: 1px solid #adb5bd;
+  padding: 36px 0;
+}
+
+.nav-btn{
+  line-height: 0;
+  position: relative;
+  right: 70px;
+  color: $accent-200;
+  display: flex;
+  align-items: center;
+  border: unset;
 }
