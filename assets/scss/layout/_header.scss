@@ -6,9 +6,20 @@
 .nav-btn{
   line-height: 0;
   position: relative;
-  right: 70px;
   color: $accent-200;
   display: flex;
+  right: 70px;
   align-items: center;
   border: unset;
+}
+@media (max-width:992px) {
+  .nav-btn{
+    right:0
+  }
+}
+
+@media (max-width:992px) {
+  .navbar-collapse.navbar-collapse{
+    height: calc(100vh);
+  }
 }
