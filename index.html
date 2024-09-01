@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>index</title>
-    <script type="module" crossorigin src="/week6/assets/main-fc2f6af6.js"></script>
-    <link rel="stylesheet" href="/week6/assets/main-d27da702.css">
+    <script type="module" crossorigin src="/week6/assets/main-59f5e725.js"></script>
+    <link rel="stylesheet" href="/week6/assets/main-6eb58049.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg">
@@ -132,7 +133,7 @@
           </div>
           </div>
           <div class="col">
-            <div class="theme-card">
+            <div class="theme-card pb-sm-8">
             <picture>
               <source media="(min-width: 992px)" srcset="/week6/assets/theme-7-88f0cd69.png ">
               <img src="/week6/assets/theme-7-sm-0e3e7b41.png" alt="hots-7" class="w-100">
@@ -143,14 +144,111 @@
         </div>
       </section>
 
-      <section>
-        
+      <section class="container">
+        <div class="row">
+          <div class="col-md-4 d-sm-none d-md-block">
+            <div class="d-flex flex-column justify-content-between h-100 py-lg-10 py-md-6">
+              <h2 class="mb-auto">精選文章</h2>
+              <div class="mt-auto">
+                <div class="mb-5"> 
+                  <span class="pe-2">1</span>
+                  /
+                  <span class="ps-2">3</span>
+                </div>
+                <div class="d-flex align-items-center">
+                  <button type="button" class="btn btn-outline-primary-400 con-btn me-4">
+                    <i class="bi bi-arrow-left"></i>
+                  </button>
+                  <div class="line me-4"></div>
+                  <button class="btn btn-outline-primary-400 con-btn">
+                    <i class="bi bi-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-8 d-sm-none d-md-block">
+            <div class="py-lg-10 py-md-6 d-flex justify-content-end">
+              <div class="card border-0 border-bottom rounded-0 rounded-top me-lg-8 me-md-4">
+                <picture>
+                  <source media="(min-width: 992px)" srcset="/week6/assets/articles-1-ebc46e31.png ">
+                  <img src="/week6/assets/articles-1-sm-203688b1.png" alt="articles-1-sm" class="card-img-top">
+                </picture>
+                <div class="card-body px-0 d-flex flex-column justify-content-between">
+                  <div>
+                    <h5 class="card-title text-gray-400 mb-1">私人島嶼的露營奇遇記</h5>
+                    <p class="card-text text-gray-400 mb-5">遠離塵囂,用全新的眼光重塑生活的舒適本味。徜徉在環山綠野間,在這處隱世私家別墅裡,盡情領略池畔優閒時光,
+                      任林間微風撫面,聆聽花鳥嘶啞之音,重拾內心深處的寧靜安詳...</p>
+                  </div>
+                  <div>
+                    <a href="#" class="stretched-link text-secondary-200">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+            <div class="card border-0 border-bottom rounded-0 rounded-top">
+              <picture>
+                <source media="(min-width: 992px)" srcset="/week6/assets/articles-2-05d8b79f.png ">
+                <img src="/week6/assets/articles-2-sm-30531557.png" alt="articles-2-sm" class="card-img-top">
+              </picture>
+              <div class="card-body px-0 d-flex flex-column justify-content-between">
+                <div>
+                <h5 class="card-title text-gray-400 mb-1">窺探米其林三星主廚的絕密手藝</h5>
+                <p class="card-text text-gray-400 mb-5">
+                  在這間隱世餐廳,來一場味蕾與靈魂的盛宴。幽微燈火下,透過巨匠大師的獨門料理,領略食材中蘊藏的大自然馨香脈絡。
+                  營造只屬於你我的私密小宇宙,沉浸其中,品嘗人生至臻至美的風味...</p>
+              </div>
+                <div class="d-flex justify-content-between align-items-end">
+                  <div class="mt-auto"><a href="#" class="stretched-link text-secondary-200">Read More</a></div>
+                <p class="bg-primary-300 text-primary-400 px-2 rounded">會員專屬</p>
+              </div>
+              </div>
+            </div>
+            </div>
+          </div>
+      </div> 
+      </section>
+
+      <!--精選文章sm-->
+      <section class="container">
+        <div class="row d-none d-sm-block d-md-none">
+          <h2 class="mb-5">精選文章</h2>
+          <div>
+            <div class="card border-0 border-bottom rounded-0 rounded-top mb-8">
+              <img src="/week6/assets/articles-1-sm-203688b1.png" class="w-100 mb-5" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-gray-400 mb-1">私人島嶼的露營奇遇記</h5>
+                <p class="card-text text-gray-400 mb-5">遠離塵囂,用全新的眼光重塑生活的舒適本味。
+                  徜徉在環山綠野間,在這處隱世私家別墅裡,盡情領略池畔優閒時光,
+                  任林間微風撫面,聆聽花鳥嘶啞之音,重拾內心深處的寧靜安詳...</p>
+                  <a href="#" class="stretched-link text-secondary-200 mb-5">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="mt-auto d-flex justify-content-between align-items-center mb-6">
+            <div class="text-middle"> 
+              <span class="pe-2">1</span>
+              /
+              <span class="ps-2">3</span>
+            </div>
+            <div class="d-flex align-items-center">
+              <button type="button" class="btn btn-outline-primary-400 con-btn me-4">
+                <i class="bi bi-arrow-left"></i>
+              </button>
+              <div class="line me-4"></div>
+              <button class="btn btn-outline-primary-400 con-btn">
+                <i class="bi bi-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="bg-primary-200">
-        <div class="container position-relative py-lg-10">
+        <div class="container position-relative py-8 py-lg-10">
           <div class="hito-content d-flex flex-column align-items-center">
-            <h3 class="fs-lg-4 fs-6 mb-4 ">\ 母親節強檔活動 /</h3>
+            <h3 class="fs-lg-4 fs-6 mb-4 momtext">\ 母親節強檔活動 /</h3>
           <h2 class="fs-lg-2 mb-4">家庭訂閱方案限時 7 折</h2>
           <ul>
             <li class="list-unstyled fs-6 text-primary-400 mb-3">
@@ -175,9 +273,215 @@
           <button class="btn btn-secondary-200 fs-lg-5 text-white" type="button">
             我想了解
           </button>
+          <div class="position-absolute bottom-0 end-0 d-lg-none ">
+            <img src="data:image/png;base64,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" alt="">
+          </div>
           </div>
         </div>
       </section>
+
+      <div class="bg-primary-100">
+      <section class="container">
+        <div class="pt-10 mb-lg-7 mb-sm-5">
+          <h2>大家都在看</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 d-flex">
+            <ul class="nav d-flex flex-column me-5 py-lg-5">
+              <li class="nav-item">
+                <a class="nav-link active text-gray-500 py-lg-3 ps-lg-3 pe-lg-8" id="list-home-list" data-bs-toggle="list" href="#list-home" 
+                role="tab" aria-controls="list-home">．酒精路跑地圖</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-gray-500 py-lg-3" id="list-profile-list" data-bs-toggle="list" href="#list-profile" 
+                role="tab" aria-controls="list-profile">．台北拉麵圖鑑</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-gray-500 py-lg-3" id="list-messages-list" data-bs-toggle="list" href="#list-messages" 
+                role="tab" aria-controls="list-messages">．海島自由行</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-gray-500 py-lg-3" id="list-settings-list" data-bs-toggle="list" href="#list-settings"
+                role="tab" aria-controls="list-settings">．短天數出國推薦</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-gray-500 py-lg-3" id="list-weekend-list" data-bs-toggle="list" href="#list-weekend"
+                role="tab" aria-controls="list-weekend">．週末露營趣</a>
+              </li>
+            </ul>
+            <div class="list-group" id="list-tab" role="tablist">
+            </div>
+          </div>
+          <div class="col-lg-9 bg-white">
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active mt-lg-7 mx-6" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                <h5 class="mt-lg-5 text-secondary-200 mb-lg-5 my-sm-3 mt-sm-3 mb-sm-2">酒精路跑地圖</h5>
+                <div class="mb-lg-7 mb-sm-3">
+                  <p class="mb-4">｜城市酒吧人氣榜,盤點當紅熱門酒吧</p>
+                  <p class="mb-4">｜你要的調酒師在這裡！五月全台酒吧客座活動整理</p>
+                  <p>｜台南老宅手工酒藏,尋味百年人文釀意</p>
+                </div>
+                <div class="hots-img d-flex mb-3">
+                  <img class="img-fluid w-25 d-none d-lg-block" src="/week6/assets/hots-1-4140643e.png" alt="hots-1">
+                  <img class="img-fluid w-25 d-none d-lg-block" src="/week6/assets/hots-2-0511cb4f.png" alt="hots-2">
+                  <img class="img-fluid w-25 d-none d-lg-block" src="/week6/assets/hots-3-1a547610.png" alt="hots-3">
+                  <img class="img-fluid w-25 d-none d-lg-block" src="/week6/assets/hots-4-ec19ac92.png" alt="hots-4">
+                </div>
+                <div>
+                <img class="d-lg-none w-100 mb-sm-3" src="/week6/assets/hots-1-sm-d41ead80.png" alt="hots-1-sm">
+                </div>
+                  <div class="d-flex justify-content-between py-lg-5">
+                  <div class="d-flex mb-3">
+                    <div class="rounded rounded-3 pe-3"><p class="bg-primary-300 px-1">#夜貓行程</p></div>
+                    <div class="rounded rounded-3 pe-3"><p class="bg-primary-300 px-1">#barhopping</p></div>
+                    <div class="rounded rounded-3 pe-3"><p class="bg-primary-300 px-1">#全台酒吧</p></div>
+                  </div>
+                  <div class="mb-lg-7 mb-sm-3">
+                     <a class="text-secondary-200" href="#">
+                      View More
+                      <i class="bi bi-arrow-right ps-1"></i>
+                    </a>
+                  </div>
+              </div>
+              </div>
+
+              <div class="tab-pane fade mt-lg-7 mx-7" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                <h5 class="mt-lg-5 text-secondary-200 mb-lg-5">台北拉麵圖鑑</h5>
+                <div class="mb-lg-7">
+                  <p class="mb-4">｜城市酒吧人氣榜,盤點當紅熱門酒吧</p>
+                  <p class="mb-4">｜你要的調酒師在這裡！五月全台酒吧客座活動整理</p>
+                  <p>｜台南老宅手工酒藏,尋味百年人文釀意</p>
+                </div>
+                <div class="hots-img d-flex mb-3">
+                  <img class="img-fluid w-25 d-none d-md-block" src="/week6/assets/hots-3-sm-5ceb5458.png" alt="hots-1">
+                  <img class="d-md-none" src="/week6/assets/hots-3-sm-5ceb5458.png" alt="hots-1-sm">
+                  <img class="img-fluid w-25 d-none d-md-block" src="/week6/assets/hots-3-sm-5ceb5458.png" alt="hots-2">
+                  <img class="img-fluid w-25 d-none d-md-block" src="/week6/assets/hots-3-sm-5ceb5458.png" alt="hots-3">
+                  <img class="img-fluid w-25 d-none d-md-block" src="/week6/assets/hots-3-sm-5ceb5458.png" alt="hots-4">
+                </div>
+                  <div class="d-flex justify-content-between py-lg-5">
+                  <div class="d-flex">
+                    <div class="rounded rounded-3 pe-3"><p class="bg-primary-300 px-1">#雞白湯</p></div>
+                    <div class="rounded rounded-3 pe-3"><p class="bg-primary-300 px-1">#拉麵</p></div>
+                    <div class="rounded rounded-3 pe-3"><p class="bg-primary-300 px-1">#台北美食</p></div>
+                  </div>
+                  <div class="mb-lg-7">
+                     <a class="text-secondary-200" href="#">
+                      View More
+                      <i class="bi bi-arrow-right ps-2"></i>
+                    </a>
+                  </div>
+              </div>
+              </div>
+              <div class="tab-pane fade mt-lg-7 mx-7" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                <h5 class="mt-lg-5 text-secondary-200 mb-lg-5">海島自由行</h5>
+                <div class="mb-lg-7">
+                  <p class="mb-4">｜私島慢活島嶼生活 - 在熱帶天堂品...</p>
+                  <p class="mb-4">｜海島漂流記 - 在陽光、沙灘和比基...</p>
+                  <p>｜島嶼蹤跡 - 揭開加勒比海上世外桃...</p>
+                </div>
+                <div class="hots-img d-flex mb-3">
+                  <img class="img-fluid w-25 d-none d-md-block" src="/week6/assets/hots-4-sm-9226d072.png" alt="hots-1">
+                  <img class="d-md-none" src="/week6/assets/hots-4-sm-9226d072.png" alt="hots-1-sm">
+                  <img class="img-fluid w-25 d-none d-md-block" src="/week6/assets/hots-4-sm-9226d072.png" alt="hots-2">
+                  <img class="img-fluid w-25 d-none d-md-block" src="/week6/assets/hots-4-sm-9226d072.png" alt="hots-3">
+                  <img class="img-fluid w-25 d-none d-md-block" src="/week6/assets/hots-4-sm-9226d072.png" alt="hots-4">
+                </div>
+                  <div class="d-flex justify-content-between py-lg-5">
+                  <div class="d-flex">
+                    <div class="rounded rounded-3 pe-3"><p class="bg-primary-300 px-1">#熱帶國家</p></div>
+                    <div class="rounded rounded-3 pe-3"><p class="bg-primary-300 px-1">#海邊</p></div>
+                    <div class="rounded rounded-3 pe-3"><p class="bg-primary-300 px-1">#無敵海景</p></div>
+                  </div>
+                  <div class="mb-lg-7">
+                     <a class="text-secondary-200" href="#">
+                      View More
+                      <i class="bi bi-arrow-right ps-2"></i>
+                    </a>
+                  </div>
+              </div>
+              </div>
+              <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                <h5 class="mt-lg-5 text-secondary-200 mb-lg-5">短天數出國推薦</h5>
+                <div class="mb-lg-7">
+                  <p class="mb-4">｜72小時東京遊走 - 當個時尚東京通</p>
+                  <p class="mb-4">｜48小時曼谷遊玩全攻略 </p>
+                  <p>｜三天兩夜賞櫻微醺東京</p>
+                </div>
+                <div class="hots-img d-flex mb-3">
+                  <img class="img-fluid w-25 d-none d-md-block" src="/week6/assets/hots-5-sm-42a757ac.png" alt="hots-1">
+                  <img class="d-md-none" src="/week6/assets/hots-5-sm-42a757ac.png" alt="hots-1-sm">
+                  <img class="img-fluid w-25 d-none d-md-block" src="/week6/assets/hots-5-sm-42a757ac.png" alt="hots-2">
+                  <img class="img-fluid w-25 d-none d-md-block" src="/week6/assets/hots-5-sm-42a757ac.png" alt="hots-3">
+                  <img class="img-fluid w-25 d-none d-md-block" src="/week6/assets/hots-5-sm-42a757ac.png" alt="hots-4">
+                </div>
+                  <div class="d-flex justify-content-between py-lg-5">
+                  <div class="d-flex">
+                    <div class="rounded rounded-3 pe-3"><p class="bg-primary-300 px-1">#說走就走</p></div>
+                    <div class="rounded rounded-3 pe-3"><p class="bg-primary-300 px-1">#出國玩</p></div>
+                    <div class="rounded rounded-3 pe-3"><p class="bg-primary-300 px-1">#東亞</p></div>
+                  </div>
+                  <div class="mb-lg-7">
+                     <a class="text-secondary-200" href="#">
+                      View More
+                      <i class="bi bi-arrow-right ps-2"></i>
+                    </a>
+                  </div>
+              </div>
+              </div>
+              <div class="tab-pane fade" id="list-weekend" role="tabpanel" aria-labelledby="list-weekend-list">
+                <h5 class="mt-lg-5 text-secondary-200 mb-lg-5">週末露營趣</h5>
+                <div class="mb-lg-7">
+                  <p class="mb-4">｜週末說走就走露營記</p>
+                  <p class="mb-4">｜城市野營日記</p>
+                  <p>｜和寵物去露營 - 大自然之旅的雙倍...</p>
+                </div>
+                <div class="hots-img d-flex mb-3">
+                  <img class="img-fluid w-25 d-none d-md-block" src="/week6/assets/hots-2-sm-e66a826f.png" alt="hots-1">
+                  <img class="d-md-none" src="/week6/assets/hots-2-sm-e66a826f.png" alt="hots-1-sm">
+                  <img class="img-fluid w-25 d-none d-md-block" src="/week6/assets/hots-2-sm-e66a826f.png" alt="hots-2">
+                  <img class="img-fluid w-25 d-none d-md-block" src="/week6/assets/hots-2-sm-e66a826f.png" alt="hots-3">
+                  <img class="img-fluid w-25 d-none d-md-block" src="/week6/assets/hots-2-sm-e66a826f.png" alt="hots-4">
+                </div>
+                  <div class="d-flex justify-content-between py-lg-5">
+                  <div class="d-flex">
+                    <div class="rounded rounded-3 pe-3"><p class="bg-primary-300 px-1">#戶外</p></div>
+                    <div class="rounded rounded-3 pe-3"><p class="bg-primary-300 px-1">#露營控</p></div>
+                    <div class="rounded rounded-3 pe-3"><p class="bg-primary-300 px-1">#凹豆</p></div>
+                  </div>
+                  <div class="mb-lg-7">
+                     <a class="text-secondary-200" href="#">
+                      View More
+                      <i class="bi bi-arrow-right ps-2"></i>
+                    </a>
+                  </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+
+      <section class="container">
+        <div>
+          <div class="d-flex justify-content-between py-lg-10">
+            <h5>品味生活</h5>
+            <div class="d-flex align-items-center">
+              <button type="button" class="btn btn-outline-primary-400 con-btn me-4">
+                <i class="bi bi-arrow-left"></i>
+              </button>
+              <div class="line me-4"></div>
+              <button class="btn btn-outline-primary-400 con-btn">
+                <i class="bi bi-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
 
       <section class="container py-10">
         <div class="row">
